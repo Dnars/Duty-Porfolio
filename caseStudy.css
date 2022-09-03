@@ -1,0 +1,66 @@
+.csdy {
+    margin-top: unset;
+    padding-top: unset;
+}
+
+.csdy .box,
+.main .box {
+    width: 100%;
+}
+
+/* .csdy .box:last-of-type div:last-of-type p {
+    width: 38%;
+} */
+
+.csdy .about {
+    text-align: justify;
+    color: var(--black);
+    padding: 1rem 1.5rem;
+}
+
+.csdy .about .m-t {
+    margin-top: 1.5rem;
+}
+
+.csdy .about .m-t-2 {
+    margin-top: .5rem;
+}
+
+.csdy .about .m-t-3 {
+    margin-top: 2rem;
+}
+
+.csdy .about .m-t-4 {
+    margin-top: 3rem;
+}
+
+.csdy .about .d-block {
+    display: block;
+}
+
+.csdy .about ul li {
+    list-style-type: decimal;
+    list-style-position: inside;
+    line-height: 2;
+}
+
+.csdy .about .heading {
+    font-weight: 700;
+    font-size: 1.15rem;
+}
+
+.csdy .about .subheading {
+    font-weight: 600;
+}
+
+.csdy .about .user-research div:first-of-type {
+    width: 40%;
+}
+.csdy .about .user-research div:last-of-type {
+    width: 58%;
+}
+
+
+
+
+

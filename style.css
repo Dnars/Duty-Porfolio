@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+/* COLORS */
+:root {
+	--black: #1a1a1a;
+	--orange: #ffad33;
+	--yellow-orange: #ffd699;
+	--yellow-orange-border: #ff9800;
+	--grey: #808080;
+	--white: #ffffff;
+}
+
+/* .container {
+	--bs-gutter-x: 1.5rem;
+	--bs-gutter-y: 0;
+	width: 100%;
+	padding-right: calc(var(--bs-gutter-x) * 0.5);
+	padding-left: calc(var(--bs-gutter-x) * 0.5);
+	margin-right: auto;
+	margin-left: auto;
+} */
+
+.container {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.img-fluid {
+	width: 100%;
+	height: auto;
+}
+
+.m-l {
+	margin-left: 1rem;
+}
+
+.d-flex {
+	display: flex;
+}
+
+.justify-content-btw {
+	justify-content: space-between;
+}
+
+.justify-content-center {
+	justify-content: center;
+}
+
+.align-item-center {
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+.box {
+    width: 49%;
+    border-radius: 1.2rem;
+}
+
+/* NAVIGATION BAR */
+nav .content {
+	padding-top: 2.5rem;
+	padding-bottom: 1.5rem;
+}
+nav .logo {
+	width: 8rem;
+}
+
+/* nav .nav-link ul li:nth-last-of-type(1) {
+	margin-left: 1rem;
+} */
+
+nav .nav-link ul li a {
+	display: block;
+	color: var(--black);
+	font-size: 1.2rem;
+    font-weight: 500;
+}
+
+nav .social-links a {
+	width: 2.5rem;
+	transform: translateY(-0.5rem);
+}
+
+nav .social-links a:first-of-type {
+	width: 2.9rem;
+	transform: translateY(-0.7rem);
+}
+
+/* WELCOME SECTION */
+.wel-sect {
+	text-align: center;
+	font-size: 2.5rem;
+	font-weight: 600;
+	padding-top: 2rem;
+}
+
+.wel-sect .welcome-box {
+	height: 25rem;
+	background: url(assets/giphy.webp);
+	background-size: cover;
+	background-position: center;
+	border-radius: 1.2rem;
+	margin-top: 2rem;
+	padding-top: 2rem;
+}
+
+.wel-sect .welcome-box p:first-of-type {
+	color: var(--orange);
+}
+
+.wel-sect .welcome-box p:last-of-type {
+	color: var(--white);
+	margin-top: 2rem;
+	font-size: 2rem;
+}
+
+/* FEATURED CASE STUDIES */
+.feat-csdy {
+    margin-top: 5rem;
+    padding-top: 3rem;
+    color: var(--black);
+}
+
+.feat-csdy .box:first-of-type p {
+    font-weight: 600;
+}
+
+.feat-csdy .box:first-of-type p span {
+    display: block;
+}
+
+.feat-csdy .box:first-of-type p span:first-of-type {
+    font-size: 3rem;
+}
+
+.feat-csdy .box:first-of-type p span:last-of-type {
+    font-size: 3.5rem;
+}
+
+.feat-csdy .box:last-of-type div:first-of-type img {
+    display: block;
+}
+
+.feat-csdy .box:last-of-type div:last-of-type {
+    padding: 1rem 1.5rem 1.5rem;
+    border-radius: 1.2rem;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: 0px 3px 4px rgba(218, 218, 218, 0.5);
+}
+
+.feat-csdy .box:last-of-type div:last-of-type p {
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.feat-csdy .box:last-of-type div:last-of-type button {
+    font-weight: 600;
+    font-size: 1rem;
+    border: 1px solid var(--orange);
+    border-radius: 3rem;
+    color: var(--orange);
+    background: var(--yellow-orange);
+    padding: .8rem 2rem;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+/* COMING SOON SECTION */
+.coming-soon-sect {
+    margin-top: 4rem;
+}
+
+.coming-soon-sect .box {
+    text-align: center;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    background: var(--yellow-orange);
+    color: var(--black);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* FOOTER SECTION */
+footer {
+    border-top: 1px solid #F2F2F2;
+    margin-top: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    color: var(--grey)
+}
+
+footer .social-links a {
+    display: block;
+	width: 2.5rem;
+}
+footer .social-links a:first-of-type {
+	width: 2.3982rem;
+    transform: translateY(0.06rem);
+}
+
+footer .social-links a:nth-of-type(2) {
+	width: 2.88rem;
+    transform: translateY(-0.2rem);
+}
+
+footer .m-l {
+    margin-left: .5rem;
+}
+
+footer p {
+    margin-top: .5rem;
+}
+
+footer p span {
+    color: var(--black);
+    font-size: .7rem                                                ;
+}

@@ -1,0 +1,32 @@
+/* SCROLLBAR STYLING */
+html::-webkit-scrollbar {
+	width: 0.4rem;
+}
+
+html::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+	background: var(--grey);
+	border-radius: 5rem;
+}
+
+/* MEDIA QUERIES */
+/* @media (min-width: 1200px) {
+	.container {
+		max-width: 1940px;
+	}
+}
+
+@media (min-width: 992px) {
+	.container {
+		max-width: 960px;
+	}
+}
+
+@media (min-width: 768px) {
+	.container {
+		max-width: 720px;
+	}
+} */
