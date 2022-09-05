@@ -1,0 +1,144 @@
+.csdy {
+	margin-top: unset;
+	padding-top: unset;
+}
+
+.csdy .box,
+.main .box {
+	width: 100%;
+}
+
+/* .csdy .box:last-of-type div:last-of-type p {
+    width: 38%;
+} */
+
+.csdy .about {
+	text-align: justify;
+	color: var(--black);
+	padding: 1rem 1.5rem;
+}
+
+.csdy .about .m-t {
+	margin-top: 1.5rem;
+}
+
+.csdy .about .m-t-2 {
+	margin-top: 0.5rem;
+}
+
+.csdy .about .m-t-3 {
+	margin-top: 2rem;
+}
+
+.csdy .about .m-t-4 {
+	margin-top: 3rem;
+}
+
+.csdy .about .d-block {
+	display: block;
+}
+
+.csdy .about ul li {
+	list-style-type: decimal;
+	list-style-position: inside;
+	line-height: 2;
+}
+
+.csdy .about .heading {
+	font-weight: 700;
+	font-size: 1.15rem;
+}
+
+.csdy .about .subheading {
+	font-weight: 600;
+}
+
+.csdy .about .user-research div:first-of-type {
+	width: 40%;
+}
+.csdy .about .user-research div:last-of-type {
+	width: 58%;
+}
+
+/* SCROLL TO TOP BUTTON */
+body {
+	position: relative;
+}
+
+.casestudy-btn {
+	margin-top: 2rem;
+}
+
+.casestudy-btn button {
+	font-weight: 500;
+    font-size: .95rem;
+	text-decoration: underline;
+	border: none;
+	background: none;
+	color: var(--black);
+	cursor: pointer;
+}
+
+.scroll-to-top {
+	opacity: 0;
+	transform: translateY(15rem);
+	/* transition: opacity 400ms,transform 400ms; */
+	/* position: -webkit-sticky; */
+	position: fixed;
+	bottom: 0;
+	right: 15.7%;
+	cursor: pointer;
+}
+
+.active-scroll {
+	animation: popup 400ms forwards, bounce 700ms 400ms infinite alternate;
+}
+
+/* .no-scroll {
+	animation: closeScrollBtn 2400ms forwards;
+} */
+
+.scroll-to-top .scroll {
+	width: 3rem;
+}
+
+/* @keyframes closeScrollBtn {
+	0% {
+		transform: translateY(-5.2rem);
+		opacity: 1;
+	}
+
+	30% {
+		opacity: 0.2;
+	}
+
+	100% {
+		transform: translateY(15rem);
+		opacity: 0;
+	}
+} */
+
+@keyframes popup {
+	0% {
+		transform: translateY(15rem);
+		opacity: 0;
+	}
+
+	70% {
+		opacity: 0.2;
+	}
+
+	100% {
+		transform: translateY(-5.2rem);
+		opacity: 1;
+	}
+}
+
+@keyframes bounce {
+	from {
+		transform: translateY(-5.2rem);
+	}
+	to {
+		transform: translateY(-5.35rem);
+	}
+}

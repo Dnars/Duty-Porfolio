@@ -75,7 +75,19 @@ li {
     border-radius: 1.2rem;
 }
 
+.b-shadow {
+	box-shadow: 0 4px 4px 0 rgba(194, 186, 186, 0.2),
+		0 10px 20px 0 rgba(194, 186, 186, 0.2);
+}
+
 /* NAVIGATION BAR */
+nav {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	background: var(--white);
+}
+
 nav .content {
 	padding-top: 2.5rem;
 	padding-bottom: 1.5rem;
@@ -83,10 +95,6 @@ nav .content {
 nav .logo {
 	width: 8rem;
 }
-
-/* nav .nav-link ul li:nth-last-of-type(1) {
-	margin-left: 1rem;
-} */
 
 nav .nav-link ul li a {
 	display: block;
