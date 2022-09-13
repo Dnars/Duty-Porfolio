@@ -18,21 +18,15 @@ html::-webkit-scrollbar-thumb {
 	scrollbar-color: var(--grey);
 } */
 
-/* MEDIA QUERIES */
-/* @media (min-width: 1200px) {
-	.container {
-		max-width: 1940px;
+/* MEDIA QUERIES */ 
+@media (max-width: 991px) {
+	html {
+		font-size: 80%;
 	}
 }
 
-@media (min-width: 992px) {
-	.container {
-		max-width: 960px;
+@media (max-width: 442px) {
+	html {
+		font-size: 60%;
 	}
 }
-
-@media (min-width: 768px) {
-	.container {
-		max-width: 720px;
-	}
-} */

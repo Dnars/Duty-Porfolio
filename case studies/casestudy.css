@@ -61,10 +61,6 @@
 }
 
 /* SCROLL TO TOP BUTTON */
-body {
-	position: relative;
-}
-
 .casestudy-btn {
 	margin-top: 2rem;
 }
@@ -86,7 +82,7 @@ body {
 	/* position: -webkit-sticky; */
 	position: fixed;
 	bottom: 0;
-	right: 15.7%;
+	right: 8.8%;
 	cursor: pointer;
 }
 

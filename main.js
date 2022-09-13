@@ -12,35 +12,11 @@ const scrolToTop = () => {
 
 const NAVBOXSHADOW = () => window.scrollY > 0 ? NAV.classList.add('b-shadow') : NAV.classList.remove('b-shadow');
 
-const getDetails = () => {
-    CASESTUDY.style.display = 'none';
-    CASESTUDY.style.visibility = 'hidden';
-    COMINGSOONSECTION.style.display = 'none';
-    COMINGSOONSECTION.style.visibility = 'hidden';
 
-    CONTENTDIV.appendChild(content);
 
-    // SCROLL BUTTON
-    const scrBtnDiv = document.querySelector('.scroll-to-top');
-
-    const displayScrollBtn = () => {
-        if (window.scrollY > 1000) {
-            // scrBtnDiv.classList.remove('no-scroll');
-            scrBtnDiv.classList.add('active-scroll');
-        } else {
-            scrBtnDiv.classList.remove('active-scroll');
-            // scrBtnDiv.classList.add('no-scroll');
-        }
-    };
-
-    // GET SCROLL BAR ELEMENT
-    window.addEventListener('scroll', displayScrollBtn)
-
-    // SCROLL TO TOP
-    scrBtnDiv.addEventListener('click', scrolToTop);
-}
-
-const goToCaseStudy = () => location.href = '/caseStudy page/caseStudy.html';
+const goToCaseStudy = (val) => {
+    location.href = `/case studies/${val}.html`;
+};
 
 // document.addEventListener('load', scrolToTop);
 

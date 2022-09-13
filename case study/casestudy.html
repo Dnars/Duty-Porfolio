@@ -7,19 +7,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <!-- BOOTSTRAP STYLES & JS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"
+        defer></script>
+
     <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="caseStudy.css">
+    <link rel="stylesheet" href="../case studies/casestudy.css">
     <link rel="stylesheet" href="../scrollbar-mediaQuries.css">
 
     <script src="../main.js" defer></script>
-    <script src="/caseStudy page/caseStudyContent.js" defer></script>
 </head>
 
 <body>
     <!-- NAVIGATION SECTION -->
     <nav>
         <div class="container">
-            <div class="content d-flex justify-content-btw">
+            <div class="content d-flex justify-content-between">
                 <div class="logo">
                     <a href="/">
                         <img src="../assets/Logo.png" class="img-fluid" alt="Duty">
@@ -28,7 +34,7 @@
                 <div class="nav-link">
                     <ul class="d-flex">
                         <li>
-                            <a href="/caseStudy page/caseStudy.html">Case Studies</a>
+                            <a href="/case study/casestudy.html">Case Studies</a>
                         </li>
                         <li class="m-l">
                             <a href="/about page/about.html">About Me</a>
@@ -61,7 +67,7 @@
                     <p>
                         Bridging inaccessible healthcare services for maternal patients
                     </p>
-                    <button type="button" onclick="getDetails()">
+                    <button type="button" onclick="goToCaseStudy('bloomstudies')">
                         Read more...
                     </button>
                 </div>
@@ -79,9 +85,6 @@
             </div>
         </div>
     </section>
-
-    <!-- DETAILS ON CASE STUDY -->
-    <div class="case-study-content"></div>
 
     <!-- FOOTER SECTION -->
     <footer>
