@@ -1,5 +1,6 @@
 // SCROLL BUTTON
 const scrBtnDiv = document.querySelector('.scroll-to-top');
+const scrBtn = document.querySelector('.scroll');
 
 const displayScrollBtn = () => {
     if (window.scrollY > 1000) {
@@ -15,4 +16,4 @@ const displayScrollBtn = () => {
 window.addEventListener('scroll', displayScrollBtn)
 
 // SCROLL TO TOP
-scrBtnDiv.addEventListener('click', scrolToTop);
+scrBtn.addEventListener('click', scrolToTop);

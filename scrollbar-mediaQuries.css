@@ -21,13 +21,13 @@ html::-webkit-scrollbar-thumb {
 /* MEDIA QUERIES */
 @media (max-width: 1399px) {
 	nav .content .link {
-		transform: translateX(-3rem) translateY(.37rem);
+		transform: translateX(-3rem) translateY(0.37rem);
 	}
 }
 
 @media (max-width: 1199px) {
 	nav .content .link {
-		transform: translateX(-1.5rem) translateY(.37rem);
+		transform: translateX(-1.5rem) translateY(0.37rem);
 	}
 }
 
@@ -56,9 +56,13 @@ html::-webkit-scrollbar-thumb {
 	}
 
 	.feat-csdy .container,
-	.coming-soon-sect .container,
+	.coming-soon-sect .newprogs,
 	.about-sect .container {
 		flex-direction: column;
+	}
+
+	.feat-csdy {
+		margin-top: 1rem;
 	}
 
 	.feat-csdy .box:first-of-type p span {
@@ -74,7 +78,7 @@ html::-webkit-scrollbar-thumb {
 	}
 
 	.feat-csdy .box:not(box:first-of-type) {
-		margin-top: 0.5rem;
+		margin-top: 1.5rem;
 	}
 
 	.coming-soon-sect {
@@ -107,5 +111,10 @@ html::-webkit-scrollbar-thumb {
 @media (max-width: 442px) {
 	html {
 		font-size: 65%;
+	}
+
+	.container {
+		padding-right: 1.5rem !important;
+		padding-left: 1.5rem !important;
 	}
 }
