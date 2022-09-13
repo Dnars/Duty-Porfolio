@@ -18,15 +18,94 @@ html::-webkit-scrollbar-thumb {
 	scrollbar-color: var(--grey);
 } */
 
-/* MEDIA QUERIES */ 
-@media (max-width: 991px) {
+/* MEDIA QUERIES */
+@media (max-width: 1399px) {
+	nav .content .link {
+		transform: translateX(-3rem) translateY(.37rem);
+	}
+}
+
+@media (max-width: 1199px) {
+	nav .content .link {
+		transform: translateX(-1.5rem) translateY(.37rem);
+	}
+}
+
+@media (max-width: 992px) {
 	html {
-		font-size: 80%;
+		font-size: 75%;
+	}
+
+	nav .link {
+		display: none;
+	}
+
+	nav .content .my-hamburger {
+		display: block;
+	}
+
+	nav .logo {
+		transform: translatex(4rem);
+	}
+}
+
+@media (max-width: 767px) {
+	.box,
+	.about-sect .boxs {
+		width: 100% !important;
+	}
+
+	.feat-csdy .container,
+	.coming-soon-sect .container,
+	.about-sect .container {
+		flex-direction: column;
+	}
+
+	.feat-csdy .box:first-of-type p span {
+		display: unset;
+	}
+
+	.feat-csdy .box:first-of-type p span:first-of-type {
+		margin-right: 1rem;
+	}
+
+	.feat-csdy .box:first-of-type p span {
+		font-size: 2.5rem !important;
+	}
+
+	.feat-csdy .box:not(box:first-of-type) {
+		margin-top: 0.5rem;
+	}
+
+	.coming-soon-sect {
+		margin-top: unset;
+	}
+
+	.coming-soon-sect .box:not(box:first-of-type) {
+		margin-top: 5rem;
+	}
+
+	/* CASE STUDIES STYLES */
+	.user-research {
+		flex-direction: column;
+	}
+
+	.csdy .about .user-research div {
+		width: 100% !important;
+	}
+
+	.csdy .about .user-research div:not(div:first-of-type) {
+		margin-top: 2rem;
+	}
+
+	/* ABOUT SECTION STYLES */
+	.about-sect .boxs:last-of-type {
+		margin-top: 1.5rem;
 	}
 }
 
 @media (max-width: 442px) {
 	html {
-		font-size: 60%;
+		font-size: 65%;
 	}
 }

@@ -20,10 +20,10 @@
     <script src="main.js" defer></script>
 </head>
 
-<body>
+<body class="position-relative">
     <!-- NAVIGATION SECTION -->
-    <nav>
-        <div class="container">
+    <nav class="navbar position-sticky top-0">
+        <div class="container position-relative">
             <div class="content d-flex justify-content-between">
                 <div class="logo">
                     <a href="/">
@@ -31,7 +31,7 @@
                     </a>
                 </div>
 
-                <div class="nav-link">
+                <div class="link">
                     <ul class="d-flex">
                         <li>
                             <a href="/case study/casestudy.html">Case Studies</a>
@@ -41,7 +41,10 @@
                         </li>
                     </ul>
                 </div>
-                <div class="social-links d-flex">
+
+                <span class="my-hamburger position-absolute" onclick="showNav('show')"></span>
+
+                <div class="social-links d-flex position-absolute">
                     <a href="#" target="_blank" rel="noopener">
                         <img src="assets/behance.png" class="img-fluid" alt="Behance">
                     </a>
@@ -56,8 +59,23 @@
             </div>
         </div>
     </nav>
-
-    <div class="content-div"></div>
+    <div class="shownav position-absolute top-0">
+        <div class="container">
+            <div class="d-flex justify-content-end">
+                <span class="close-hamburger d-block position-relative" onclick="showNav('close')"></span>
+            </div>
+            <div>
+                <ul class="text-center">
+                    <li>
+                        <a href="/case study/casestudy.html">Case Studies</a>
+                    </li>
+                    <li>
+                        <a href="/about page/about.html">About Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
 
     <!-- WELCOME HERO SECTION -->
     <section class="wel-sect">
@@ -133,7 +151,7 @@
                 </a>
             </div>
             <p>
-                Design with <span>&#10084;</span> @Duty_Osamudiamen
+                Design with <span>&#10084;</span> &copy;Duty_Osamudiamen
             </p>
         </div>
     </footer>

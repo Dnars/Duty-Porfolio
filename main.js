@@ -1,7 +1,12 @@
 const NAV = document.querySelector('nav');
-const CASESTUDY = document.querySelector('.csdy');
-const COMINGSOONSECTION = document.querySelector('.coming-soon-sect.main');
-const CONTENTDIV = document.querySelector('.case-study-content');
+const navDiv = document.querySelector('.my-hamburger');
+const showNavDiv = document.querySelector('.shownav');
+
+
+const showNav = (val) => {
+    if(val === 'show') showNavDiv.classList.add('show');
+    if(val === 'close') showNavDiv.classList.remove('show');
+}
 
 const scrolToTop = () => {
     window.scrollTo({
@@ -13,6 +18,10 @@ const scrolToTop = () => {
 const NAVBOXSHADOW = () => window.scrollY > 0 ? NAV.classList.add('b-shadow') : NAV.classList.remove('b-shadow');
 
 
+
+const goBackToCaseStudy = () => {
+    location.href = '/case study/casestudy.html';
+};
 
 const goToCaseStudy = (val) => {
     location.href = `/case studies/${val}.html`;
