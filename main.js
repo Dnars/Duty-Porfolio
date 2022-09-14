@@ -4,7 +4,10 @@ const showNavDiv = document.querySelector('.shownav');
 
 
 const showNav = (val) => {
-    if(val === 'show') showNavDiv.classList.add('show');
+    if(val === 'show') {
+        showNavDiv.classList.add('show');
+        scrolToTop();
+    }
     if(val === 'close') showNavDiv.classList.remove('show');
 }
 

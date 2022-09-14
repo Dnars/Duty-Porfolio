@@ -50,6 +50,26 @@ html::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 767px) {
+	
+	p,
+	a,
+	button,
+	.about-box p,
+	.about-box p.subheading,
+	.about-box span.subheading,
+	.about-box ul li {
+		font-size: 1.3rem !important;
+	}
+
+	.shownav ul li a {
+		font-size: 1.7rem !important;
+	}
+
+	.csdy .about .heading,
+	p.heading {
+		font-size: 1.4rem !important;
+	}
+
 	.box,
 	.about-sect .boxs {
 		width: 100% !important;
@@ -132,12 +152,12 @@ html::-webkit-scrollbar-thumb {
 	}
 
 	.mallonproj .stat-div span:first-of-type {
-		width: 10%;
+		width: 8.5%;
 		transform: translateY(-0.1rem);
 	}
 
 	.mallonproj .stat-div span:last-of-type img {
-		width: unset;
+		width: 100%;
 	}
 
 	.mallonproj .mendy-str img {

@@ -20,7 +20,7 @@ p {
 	--yellow-orange-border: #ff9800;
 	--grey: #808080;
 	--white: #ffffff;
-	--grey2: #FAFAFA;
+	--grey2: #F2F2F2;
 }
 
 .m-l {
@@ -170,7 +170,10 @@ nav .content .my-hamburger::after {
 /* WELCOME SECTION */
 .wel-sect {
 	text-align: center;
-	font-size: 2.5rem;
+}
+
+.wel-sect p {
+	font-size: 2.5rem !important;
 	font-weight: 600;
 	padding-top: 2rem;
 }
@@ -192,7 +195,7 @@ nav .content .my-hamburger::after {
 .wel-sect .welcome-box p:last-of-type {
 	color: var(--white);
 	margin-top: 2rem;
-	font-size: 2rem;
+	font-size: 2rem !important;
 }
 
 /* FEATURED CASE STUDIES */
@@ -250,7 +253,7 @@ nav .content .my-hamburger::after {
 
 .coming-soon-sect .newprogs .box:last-of-type,
 .coming-soon-sect.main .box {
-	height: 27.5rem;
+	height: 31.8rem;
 	background: var(--yellow-orange);
 	color: var(--black);
 	font-size: 1.5rem;
