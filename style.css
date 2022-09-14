@@ -20,6 +20,7 @@ p {
 	--yellow-orange-border: #ff9800;
 	--grey: #808080;
 	--white: #ffffff;
+	--grey2: #FAFAFA;
 }
 
 .m-l {
@@ -53,6 +54,7 @@ li {
 /* NAVIGATION BAR */
 nav {
 	background: var(--white);
+	z-index: 1000;
 }
 
 nav .content {
@@ -216,8 +218,7 @@ nav .content .my-hamburger::after {
 	font-size: 3.5rem;
 }
 
-.feat-csdy .box:last-of-type div:last-of-type,
-.newprogs .box:last-of-type div:last-of-type {
+.projdiv div:last-of-type {
 	padding: 1rem 1.5rem 1.5rem;
 	border-radius: 1.2rem;
 	border-top-left-radius: 0;
@@ -225,14 +226,12 @@ nav .content .my-hamburger::after {
 	box-shadow: 0px 3px 4px rgba(218, 218, 218, 0.5);
 }
 
-.feat-csdy .box:last-of-type div:last-of-type p,
-.newprogs .box:last-of-type div:last-of-type p {
+.projdiv div:last-of-type p {
 	font-weight: 500;
 	line-height: 1.5;
 }
 
-.feat-csdy .box:last-of-type div:last-of-type button,
-.newprogs .box:last-of-type div:last-of-type button {
+.projdiv div:last-of-type button {
 	font-weight: 600;
 	font-size: 1rem;
 	border: 1px solid var(--orange);
@@ -249,9 +248,9 @@ nav .content .my-hamburger::after {
 	margin-top: 4rem;
 }
 
-.coming-soon-sect .box,
-.coming-soon-sect .newprogs .box {
-	height: 25rem;
+.coming-soon-sect .newprogs .box:last-of-type,
+.coming-soon-sect.main .box {
+	height: 27.5rem;
 	background: var(--yellow-orange);
 	color: var(--black);
 	font-size: 1.5rem;

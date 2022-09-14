@@ -106,6 +106,46 @@ html::-webkit-scrollbar-thumb {
 	.about-sect .boxs:last-of-type {
 		margin-top: 1.5rem;
 	}
+
+	.mallonproj .ticketing-div,
+	.mallonproj .core-val,
+	.mallonproj .uncleardesigns {
+		flex-wrap: wrap;
+	}
+
+	.mallonproj .ticketing-div div,
+	.mallonproj .core-val div,
+	.mallonproj .uncleardesigns div {
+		width: 100%;
+	}
+
+	.mallonproj .core-val div:first-of-type,
+	.mallonproj .ticketing-div div:first-of-type {
+		margin-top: unset !important;
+	}
+
+	.mallonproj .core-val div:not(div:first-of-type),
+	.mallonproj .uncleardesigns div:not(div:first-of-type),
+	.mallonproj .ticketing-div,
+	.mallonproj .ticketing-div div:not(div:first-of-type) {
+		margin-top: 3rem;
+	}
+
+	.mallonproj .stat-div span:first-of-type {
+		width: 10%;
+		transform: translateY(-0.1rem);
+	}
+
+	.mallonproj .stat-div span:last-of-type img {
+		width: unset;
+	}
+
+	.mallonproj .mendy-str img {
+		width: 70%;
+	}
+	.mallonproj .stat-div1 img {
+		width: 80%;
+	}
 }
 
 @media (max-width: 442px) {
@@ -120,6 +160,11 @@ html::-webkit-scrollbar-thumb {
 
 	nav .social-links {
 		right: 1.4rem;
+	}
+
+	.mallonproj .diff-div .container {
+		padding-left: 3rem !important;
+		padding-right: 3rem !important;
 	}
 }
 

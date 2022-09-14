@@ -3,6 +3,10 @@
 	padding-top: unset;
 }
 
+.csdy .box:not(.box:first-of-type) {
+	margin-top: 4rem;
+}
+
 .csdy .box,
 .main .box {
 	width: 100%;
@@ -36,8 +40,8 @@
 
 .csdy .about ul li {
 	list-style-type: decimal;
-	list-style-position: inside;
-	line-height: 2;
+	/* list-style-position: inside; */
+	line-height: 1.7;
 }
 
 .csdy .about .heading {
@@ -63,7 +67,7 @@
 
 .casestudy-btn button {
 	font-weight: 500;
-    font-size: .95rem;
+	font-size: 0.95rem;
 	text-decoration: underline;
 	border: none;
 	background: none;
@@ -78,7 +82,7 @@
 	bottom: 0;
 	left: 0;
 	right: 0;
-	width: 100%;	
+	width: 100%;
 }
 
 .active-scroll {
@@ -133,4 +137,70 @@
 	to {
 		transform: translateY(-5.35rem);
 	}
+}
+
+/* MALLON PROJECT STYLES */
+/* .mallonproj .stat-div {
+} */
+
+.mallonproj .stat-div span:first-of-type {
+	width: 2%;
+	transform: translateY(0.3rem);
+}
+
+.mallonproj .stat-div span:first-of-type img {
+	width: 35%;
+}
+
+.mallonproj .stat-div span:last-of-type img {
+	width: 80%;
+}
+
+.mallonproj .stat-div1 img {
+	width: 55%;
+}
+
+.mallonproj .stat-div2 .heading {
+	font-size: 1.5rem;
+}
+
+.mallonproj .user-story img {
+	width: 57%;
+}
+
+.mallonproj .mendy-str img {
+	width: 35%;
+}
+
+.mallonproj .diff-div {
+	width: 99.6vw !important;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	background: var(--grey2);
+}
+
+.mallonproj .diff-div .container {
+	padding: 4rem 2.2rem;
+}
+
+.mallonproj .core-val,
+.mallonproj .uncleardesigns {
+	gap: 3%;
+}
+
+.mallonproj .design-label img {
+	width: 10%;
+	margin-left: 1rem;
+	transform: translateY(-.045rem);
+	height: .13rem;
+}
+
+.mallonproj .ticketing-div {
+	flex-wrap: wrap;
+	gap: 3%;
+}
+
+.mallonproj .ticketing-div div {
+	width: 31%;
 }
