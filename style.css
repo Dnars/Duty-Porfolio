@@ -253,7 +253,7 @@ nav .content .my-hamburger::after {
 
 .coming-soon-sect .newprogs .box:last-of-type,
 .coming-soon-sect.main .box {
-	height: 504px;
+	height: 30rem;
 	background: var(--yellow-orange);
 	color: var(--black);
 	font-size: 1.5rem;
