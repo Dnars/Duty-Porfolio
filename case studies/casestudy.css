@@ -13,7 +13,7 @@
 }
 
 .csdy .about {
-	text-align: justify;
+	/* text-align: justify; */
 	color: var(--black);
 	padding: 1rem 1.5rem;
 }
@@ -160,12 +160,41 @@
 	width: 55%;
 }
 
+.mallonproj .help-mendy  {
+	border-left: 7px solid var(--red);
+	border-top-left-radius: .5rem;
+	border-bottom-left-radius: .5rem;
+	padding-left: 1.5rem;
+	/* width: 70%; */
+}
+
+.mallonproj .help-mendy .mendy-name {
+	width: 30%;
+	font-style: italic;
+	color: var(--red);
+	text-align: right;
+	position: absolute;
+	bottom: -1.5rem;
+	right: 1rem;
+}
+
 .mallonproj .stat-div2 .heading {
 	font-size: 1.5rem;
 }
 
-.mallonproj .user-story img {
-	width: 57%;
+.mallonproj .user-story p {
+	position: relative;
+	margin-left: 2rem;
+}
+
+.mallonproj .user-story p::before {
+	position: absolute;
+	content: "";
+	left: -2rem;
+	top: .28rem;
+	width: .8rem;
+	height: .8rem;
+	background: var(--red);
 }
 
 .mallonproj .mendy-str img {

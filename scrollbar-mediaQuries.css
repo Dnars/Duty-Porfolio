@@ -50,7 +50,6 @@ html::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 767px) {
-	
 	p,
 	a,
 	button,
@@ -58,7 +57,7 @@ html::-webkit-scrollbar-thumb {
 	.about-box p.subheading,
 	.about-box span.subheading,
 	.about-box ul li {
-		font-size: 1.32rem !important;
+		font-size: 1.34rem !important;
 	}
 
 	.shownav ul li a {
@@ -67,7 +66,7 @@ html::-webkit-scrollbar-thumb {
 
 	.csdy .about .heading,
 	p.heading {
-		font-size: 1.42rem !important;
+		font-size: 1.52rem !important;
 	}
 
 	.box,
@@ -165,6 +164,10 @@ html::-webkit-scrollbar-thumb {
 	}
 	.mallonproj .stat-div1 img {
 		width: 80%;
+	}
+
+	.mallonproj .user-story p::before {
+		top: 0.45rem;
 	}
 }
 

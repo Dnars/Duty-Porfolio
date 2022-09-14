@@ -21,6 +21,7 @@ p {
 	--grey: #808080;
 	--white: #ffffff;
 	--grey2: #F2F2F2;
+	--red: #FF0606;
 }
 
 .m-l {
@@ -129,7 +130,7 @@ nav .content .my-hamburger::after {
 	background: var(--white);
 	width: 100%;
 	height: 100%;
-	z-index: 100000;
+	z-index: 1000;
 }
 
 .shownav.show {
