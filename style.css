@@ -249,6 +249,7 @@ nav .content .my-hamburger::after {
 	margin-top: 4rem;
 }
 
+.coming-soon-sect .box,
 .coming-soon-sect .newprogs .box {
 	height: 25rem;
 	background: var(--yellow-orange);

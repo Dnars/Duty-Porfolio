@@ -110,11 +110,15 @@ html::-webkit-scrollbar-thumb {
 
 @media (max-width: 442px) {
 	html {
-		font-size: 65%;
+		font-size: 61%;
 	}
 
 	.container {
-		padding-right: 1.5rem !important;
-		padding-left: 1.5rem !important;
+		padding-right: 1.1rem !important;
+		padding-left: 1.1rem !important;
+	}
+
+	nav .social-links {
+		right: 1rem;
 	}
 }
