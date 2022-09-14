@@ -58,7 +58,7 @@ html::-webkit-scrollbar-thumb {
 	.about-box p.subheading,
 	.about-box span.subheading,
 	.about-box ul li {
-		font-size: 1.3rem !important;
+		font-size: 1.32rem !important;
 	}
 
 	.shownav ul li a {
@@ -67,7 +67,7 @@ html::-webkit-scrollbar-thumb {
 
 	.csdy .about .heading,
 	p.heading {
-		font-size: 1.4rem !important;
+		font-size: 1.42rem !important;
 	}
 
 	.box,
@@ -152,8 +152,8 @@ html::-webkit-scrollbar-thumb {
 	}
 
 	.mallonproj .stat-div span:first-of-type {
-		width: 8.5%;
-		transform: translateY(-0.1rem);
+		width: 10.5%;
+		transform: translateY(0.1rem);
 	}
 
 	.mallonproj .stat-div span:last-of-type img {

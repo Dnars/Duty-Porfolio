@@ -144,8 +144,8 @@
 } */
 
 .mallonproj .stat-div span:first-of-type {
-	width: 2%;
-	transform: translateY(0.3rem);
+	width: 1.85%;
+	transform: translateY(0.47rem);
 }
 
 .mallonproj .stat-div span:first-of-type img {
