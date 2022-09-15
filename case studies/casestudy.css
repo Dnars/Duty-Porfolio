@@ -149,13 +149,13 @@
 	color: var(--red);
 	text-align: right;
 	position: absolute;
-	bottom: -1.5rem;
+	bottom: -1.7rem;
 	right: 1rem;
 }
 
 .mallonproj .help-mendy p,
 .mallonproj .help-mendy .mendy-name .subheading  {
-	font-size: 1.42rem !important;
+	font-size: 1.4rem !important;
 }
 
 .mallonproj .stat-div2 .heading {
