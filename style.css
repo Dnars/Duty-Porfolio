@@ -174,14 +174,19 @@ nav .content .my-hamburger::after {
 	font-size: 2.5rem !important;
 	font-weight: 600;
 	padding-top: 2rem;
+	color: var(--white);
 }
 
-
-.wel-sect .welcome-box {
+.wel-sect {
 	background: url(assets/giphy.webp);
-	height: 25rem;
 	background-size: cover;
 	background-position: center;
+	/* background-repeat: no-repeat; */
+}
+
+.wel-sect .welcome-box {
+	/* background: url(assets/giphy.webp); */
+	height: 25rem;
 	margin-top: 2rem;
 	padding-top: 2rem;
 }
@@ -253,7 +258,7 @@ nav .content .my-hamburger::after {
 
 .coming-soon-sect .newprogs .box:last-of-type,
 .coming-soon-sect.main .box {
-	height: 29.5rem;
+	height: 29.65rem;
 	background: var(--yellow-orange);
 	color: var(--black);
 	font-size: 1.5rem;

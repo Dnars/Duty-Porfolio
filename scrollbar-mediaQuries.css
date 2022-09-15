@@ -29,6 +29,18 @@ html::-webkit-scrollbar-thumb {
 	nav .content .link {
 		transform: translateX(-1.5rem) translateY(0.37rem);
 	}
+
+	.coming-soon-sect .newprogs .box:last-of-type,
+	.coming-soon-sect.main .box {
+		height: 27.65rem;
+		background: var(--yellow-orange);
+		color: var(--black);
+		font-size: 1.5rem;
+		font-weight: 600;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
 }
 
 @media (max-width: 992px) {
