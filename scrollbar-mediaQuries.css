@@ -169,6 +169,10 @@ html::-webkit-scrollbar-thumb {
 	.mallonproj .user-story p::before {
 		top: 0.45rem;
 	}
+
+	.mallonproj .core-val div ul li::before {
+		top: 0.85rem;
+	}
 }
 
 @media (max-width: 442px) {
@@ -189,10 +193,31 @@ html::-webkit-scrollbar-thumb {
 		padding-left: 3rem !important;
 		padding-right: 3rem !important;
 	}
+
+	.mallonproj .core-val div ul li::before {
+		width: 8.5px;
+		height: 8.5px;
+		top: 0.75rem;
+	}
+
+	.mallonproj .user-story p::before {
+		top: 0.49rem;
+	}
 }
 
 @media (max-width: 329px) {
 	html {
 		font-size: 50%;
+	}
+
+	.mallonproj .core-val div ul li::before {
+		width: 7px;
+		height: 7px;
+	}
+}
+
+@media (max-width: 280px) {
+	html {
+		font-size: 40%;
 	}
 }

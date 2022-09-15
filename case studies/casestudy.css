@@ -87,30 +87,10 @@
 	animation: popup 400ms forwards, bounce 700ms 400ms infinite alternate;
 }
 
-/* .no-scroll {
-	animation: closeScrollBtn 2400ms forwards;
-} */
-
 .scroll-to-top .scroll {
 	width: 4rem;
 	cursor: pointer;
 }
-
-/* @keyframes closeScrollBtn {
-	0% {
-		transform: translateY(-5.2rem);
-		opacity: 1;
-	}
-
-	30% {
-		opacity: 0.2;
-	}
-
-	100% {
-		transform: translateY(15rem);
-		opacity: 0;
-	}
-} */
 
 @keyframes popup {
 	0% {
@@ -138,9 +118,6 @@
 }
 
 /* MALLON PROJECT STYLES */
-/* .mallonproj .stat-div {
-} */
-
 .mallonproj .stat-div span:first-of-type {
 	width: 1.85%;
 	transform: translateY(0.47rem);
@@ -159,20 +136,26 @@
 }
 
 .mallonproj .help-mendy  {
-	border-left: 7px solid var(--red);
-	border-top-left-radius: .5rem;
-	border-bottom-left-radius: .5rem;
+	border-left: 6px solid var(--red);
+	border-top-left-radius: .4rem;
+	border-bottom-left-radius: .4rem;
 	padding-left: 1.5rem;
+	font-style: italic;
+	color: grey;
 }
 
 .mallonproj .help-mendy .mendy-name {
 	width: 30%;
-	font-style: italic;
 	color: var(--red);
 	text-align: right;
 	position: absolute;
 	bottom: -1.5rem;
 	right: 1rem;
+}
+
+.mallonproj .help-mendy p,
+.mallonproj .help-mendy .mendy-name .subheading  {
+	font-size: 1.42rem !important;
 }
 
 .mallonproj .stat-div2 .heading {
@@ -194,10 +177,6 @@
 	background: var(--red);
 }
 
-.mallonproj .mendy-str img {
-	width: 35%;
-}
-
 .mallonproj .diff-div {
 	width: 99.6vw !important;
 	position: relative;
@@ -208,6 +187,53 @@
 
 .mallonproj .diff-div .container {
 	padding: 4rem 2.2rem;
+}
+
+.mallonproj .diff-div .mendy-div .cont p:last-of-type {
+	font-weight: 500;
+}
+
+.mallonproj .diff-div .mendy-div img {
+	width: 90%;
+}
+
+.mallonproj .core-val div {
+	padding: 3.5rem;
+	width: 50%;
+	border-radius: 1.2rem;
+}
+
+.mallonproj .core-val div ul li {
+	list-style-type: none;
+	line-height: 2;
+	position: relative;
+	font-weight: 500;
+}
+
+.mallonproj .core-val div ul li::before {
+	position: absolute;
+	content: "";
+	left: -1.7rem;
+	top: 0.585rem;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+
+.mallonproj .core-val div:first-of-type {
+	background: var(--tomato);
+}
+
+.mallonproj .core-val div:last-of-type {
+	background: var(--gold-yellow);
+}
+
+.mallonproj .core-val div:first-of-type ul li::before {
+	background: var(--tomato2);
+}
+
+.mallonproj .core-val div:last-of-type ul li::before {
+	background: var(--gold-yellow2);
 }
 
 .mallonproj .core-val,
@@ -229,4 +255,12 @@
 
 .mallonproj .ticketing-div div {
 	width: 31%;
+	background: var(--grey2);
+	padding: 1.5rem;
+	border-radius: 1.2rem;
+}
+
+.mallonproj .ticketing-div div p {
+	padding-left: .5rem;
+	height: 3rem;
 }
