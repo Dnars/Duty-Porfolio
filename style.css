@@ -176,12 +176,12 @@ nav .content .my-hamburger::after {
 	padding-top: 2rem;
 }
 
+
 .wel-sect .welcome-box {
-	height: 25rem;
 	background: url(assets/giphy.webp);
+	height: 25rem;
 	background-size: cover;
 	background-position: center;
-	border-radius: 1.2rem;
 	margin-top: 2rem;
 	padding-top: 2rem;
 }
