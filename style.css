@@ -181,6 +181,7 @@ nav .content .my-hamburger::after {
 	background: url(assets/giphy.webp);
 	background-size: cover;
 	background-position: center;
+	filter: blur(10%);
 	/* background-repeat: no-repeat; */
 }
 

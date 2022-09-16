@@ -253,14 +253,14 @@
 	gap: 3%;
 }
 
-.mallonproj .ticketing-div div {
+.mallonproj .ticketing-div .eg-div {
 	width: 31%;
 	background: var(--grey2);
 	padding: 1.5rem;
 	border-radius: 1.2rem;
 }
 
-.mallonproj .ticketing-div div p {
+.mallonproj .ticketing-div .eg-div p {
 	padding-left: .5rem;
 	height: 3rem;
 }
