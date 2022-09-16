@@ -187,12 +187,6 @@ html::-webkit-scrollbar-thumb {
 	}
 }
 
-@media (max-width: 482px) {
-	.mallonproj .ticketing-div .eg-div div {
-		margin-top: .8rem;
-	}
-}
-
 @media (max-width: 442px) {
 	html {
 		font-size: 61%;

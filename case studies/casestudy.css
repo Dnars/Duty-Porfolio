@@ -262,5 +262,8 @@
 
 .mallonproj .ticketing-div .eg-div p {
 	padding-left: .5rem;
-	height: 3rem;
+}
+
+.mallonproj .ticketing-div .eg-div div {
+	margin-top: .5rem;
 }
