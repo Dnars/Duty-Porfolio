@@ -28,6 +28,10 @@ p {
 	--gold-yellow2: #FFC166;
 }
 
+img {
+	width: 100%;
+}
+
 .m-l {
 	margin-left: 1rem;
 }

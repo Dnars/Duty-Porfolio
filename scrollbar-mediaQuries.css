@@ -19,6 +19,13 @@ html::-webkit-scrollbar-thumb {
 } */
 
 /* MEDIA QUERIES */
+@media (min-width: 1400px) {
+	.coming-soon-sect .newprogs .box:last-of-type,
+	.coming-soon-sect.main .box {
+		height: 33rem;
+	}
+}
+
 @media (max-width: 1399px) {
 	nav .content .link {
 		transform: translateX(-3rem) translateY(0.37rem);
@@ -32,14 +39,7 @@ html::-webkit-scrollbar-thumb {
 
 	.coming-soon-sect .newprogs .box:last-of-type,
 	.coming-soon-sect.main .box {
-		height: 27.65rem;
-		background: var(--yellow-orange);
-		color: var(--black);
-		font-size: 1.5rem;
-		font-weight: 600;
-		display: flex;
-		align-items: center;
-		justify-content: center;
+		height: 26.3rem;
 	}
 }
 
